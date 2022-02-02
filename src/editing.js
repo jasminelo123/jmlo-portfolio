@@ -12,7 +12,7 @@ function editing(){
 <div className="wide "><h1 className="name-tags">editing.</h1></div>
 <div className="narrow">
     <h1>what i do.</h1>
-    <h1 className="name">poster/video editing.</h1>
+    <h1 className="name">poster/video editing<span className='white-name'>.</span></h1>
     <h6>handling a small online shop using Shopee.
         <br/>creating my own poster using Photoshop, Illustrator or Canva.
         <br/>making vlogs and video contents at Youtube, Facebook, Tiktok and Instagram.
@@ -24,11 +24,12 @@ function editing(){
   </div>
 
 </div>
-<a href="#social" class='fas fa-angle-down'></a>
+<div className="down-banner">
+<a href="#social" className='fas fa-angle-down'></a>
 
 <div className="Welcome-Banner" id="social">    
  
-    <h1>social media i handle.</h1>
+    <h1>social media i handle<span className='white-name'>.</span></h1>
     <h6 className="descrip">handles posting and graphic poster for the shop.
           <br/>knows basic editing using Photoshop, Illustrator and Canva.
           <br/>
@@ -83,6 +84,7 @@ function editing(){
     <div className="social-med-logos"><br/>
     <SocialMedia/>
     </div>
+</div>
 </div>
         );
     };

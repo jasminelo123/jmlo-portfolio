@@ -11,7 +11,7 @@ function coding(){
 <div className="parent ">
   <div className="wide"> <h1 className="name-tags">coding.</h1> </div>
   <div className="narrow">
-      <h1>what i do.</h1>
+      <h1>what i do<span className='white-name'>.</span></h1>
       <h1 className="name">html.css.js.<br/>reactjs.php.java.</h1>
       <h6>i am interested with creating a website and brings it to life.
           <br/>i am open and have the eagerness to learn more with development.
@@ -22,7 +22,8 @@ function coding(){
       <SocialMedia/>
       </div>
 </div>
-<a href="#coding" class='fas fa-angle-down'></a>
+<div className="down-banner">
+<a href="#coding" className='fas fa-angle-down'></a>
 <div className="Welcome-Banner" id="coding">    
  
  <h1>some websites i did with my course.</h1>
@@ -39,6 +40,7 @@ function coding(){
      <img src={require('./img/pic5.PNG')}alt="pic1"></img>
      <i><a href="#">webdesign only using html and css</a></i>
      </div>
+ </div>
  </div>
  </div>
         );

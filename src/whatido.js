@@ -20,7 +20,7 @@ function whatido(){
         
       </h6>
       <Link to="/coding">  <button className='button-explore-mini'> explore.</button></Link>
-  <SocialMedia/>
+    <SocialMedia/>
   </div>
 </div>
  </div>
