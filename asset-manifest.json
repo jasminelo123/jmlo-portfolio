@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jmlo-portfolio/static/css/main.5b72bde5.css",
-    "main.js": "/jmlo-portfolio/static/js/main.c97ece1b.js",
-    "static/js/787.9a45d12d.chunk.js": "/jmlo-portfolio/static/js/787.9a45d12d.chunk.js",
-    "static/media/pic2.PNG": "/jmlo-portfolio/static/media/pic2.dde66d3290cd3f1ef2e1.PNG",
-    "static/media/pic1.PNG": "/jmlo-portfolio/static/media/pic1.f284a719ed5e041795f3.PNG",
-    "static/media/pic7.PNG": "/jmlo-portfolio/static/media/pic7.85f8ceb29619d9712d72.PNG",
-    "static/media/pic5.PNG": "/jmlo-portfolio/static/media/pic5.7d427ab17d5816ac1903.PNG",
-    "static/media/pic6.PNG": "/jmlo-portfolio/static/media/pic6.d624cbebcd600eb6e6cc.PNG",
-    "static/media/pc9.PNG": "/jmlo-portfolio/static/media/pc9.934d46615207d17b0fa5.PNG",
-    "static/media/pic8.PNG": "/jmlo-portfolio/static/media/pic8.f3a262eadbbda39439ce.PNG",
-    "static/media/pic4.PNG": "/jmlo-portfolio/static/media/pic4.6d8224f0fdeca8bd3e0e.PNG",
-    "index.html": "/jmlo-portfolio/index.html",
-    "main.5b72bde5.css.map": "/jmlo-portfolio/static/css/main.5b72bde5.css.map",
-    "main.c97ece1b.js.map": "/jmlo-portfolio/static/js/main.c97ece1b.js.map",
-    "787.9a45d12d.chunk.js.map": "/jmlo-portfolio/static/js/787.9a45d12d.chunk.js.map"
+    "main.css": "/jmloportfolio/static/css/main.5b72bde5.css",
+    "main.js": "/jmloportfolio/static/js/main.85270cd4.js",
+    "static/js/787.9a45d12d.chunk.js": "/jmloportfolio/static/js/787.9a45d12d.chunk.js",
+    "static/media/pic2.PNG": "/jmloportfolio/static/media/pic2.dde66d3290cd3f1ef2e1.PNG",
+    "static/media/pic1.PNG": "/jmloportfolio/static/media/pic1.f284a719ed5e041795f3.PNG",
+    "static/media/pic7.PNG": "/jmloportfolio/static/media/pic7.85f8ceb29619d9712d72.PNG",
+    "static/media/pic5.PNG": "/jmloportfolio/static/media/pic5.7d427ab17d5816ac1903.PNG",
+    "static/media/pic6.PNG": "/jmloportfolio/static/media/pic6.d624cbebcd600eb6e6cc.PNG",
+    "static/media/pc9.PNG": "/jmloportfolio/static/media/pc9.934d46615207d17b0fa5.PNG",
+    "static/media/pic8.PNG": "/jmloportfolio/static/media/pic8.f3a262eadbbda39439ce.PNG",
+    "static/media/pic4.PNG": "/jmloportfolio/static/media/pic4.6d8224f0fdeca8bd3e0e.PNG",
+    "index.html": "/jmloportfolio/index.html",
+    "main.5b72bde5.css.map": "/jmloportfolio/static/css/main.5b72bde5.css.map",
+    "main.85270cd4.js.map": "/jmloportfolio/static/js/main.85270cd4.js.map",
+    "787.9a45d12d.chunk.js.map": "/jmloportfolio/static/js/787.9a45d12d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5b72bde5.css",
-    "static/js/main.c97ece1b.js"
+    "static/js/main.85270cd4.js"
   ]
 }
