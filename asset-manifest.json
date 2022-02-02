@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jmloportfolio/static/css/main.5b72bde5.css",
-    "main.js": "/jmloportfolio/static/js/main.85270cd4.js",
+    "main.css": "/jmloportfolio/static/css/main.23769f80.css",
+    "main.js": "/jmloportfolio/static/js/main.dbd0202b.js",
     "static/js/787.9a45d12d.chunk.js": "/jmloportfolio/static/js/787.9a45d12d.chunk.js",
     "static/media/pic2.PNG": "/jmloportfolio/static/media/pic2.dde66d3290cd3f1ef2e1.PNG",
     "static/media/pic1.PNG": "/jmloportfolio/static/media/pic1.f284a719ed5e041795f3.PNG",
@@ -12,12 +12,12 @@
     "static/media/pic8.PNG": "/jmloportfolio/static/media/pic8.f3a262eadbbda39439ce.PNG",
     "static/media/pic4.PNG": "/jmloportfolio/static/media/pic4.6d8224f0fdeca8bd3e0e.PNG",
     "index.html": "/jmloportfolio/index.html",
-    "main.5b72bde5.css.map": "/jmloportfolio/static/css/main.5b72bde5.css.map",
-    "main.85270cd4.js.map": "/jmloportfolio/static/js/main.85270cd4.js.map",
+    "main.23769f80.css.map": "/jmloportfolio/static/css/main.23769f80.css.map",
+    "main.dbd0202b.js.map": "/jmloportfolio/static/js/main.dbd0202b.js.map",
     "787.9a45d12d.chunk.js.map": "/jmloportfolio/static/js/787.9a45d12d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b72bde5.css",
-    "static/js/main.85270cd4.js"
+    "static/css/main.23769f80.css",
+    "static/js/main.dbd0202b.js"
   ]
 }
