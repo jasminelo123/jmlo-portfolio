@@ -1,6 +1,6 @@
 
 import './design.css';
-import MainPage from './mainpage';
+import MainPage from './jmloportfolio';
 import Header from './header';
 import AboutMe from './aboutme';
 import WhatIDo from './whatido';
@@ -21,7 +21,7 @@ function App() {
    
    <Switch>
         <Route path="/" exact component={MainPage} />
-        <Route path="/mainpage" exact component={MainPage} />
+        <Route path="/jmloportfolio" exact component={MainPage} />
         <Route path="/aboutme" exact component={AboutMe} />
         <Route path="/contact" exact component={ContactMe} />
         <Route path="/WhatIDo" exact component={WhatIDo} />

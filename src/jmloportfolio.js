@@ -5,7 +5,7 @@ import { BrowserRouter as Router,
     Link} from 'react-router-dom';
 import SocialMedia from './socialmedialogos'; 
 
-function mainpage(){
+function jmloportfolio(){
     return( 
 <div className="Welcome-Banner">      
     <h1>hello, i'm jasmine!</h1>
@@ -25,5 +25,5 @@ function mainpage(){
         );
     };
 
-export default mainpage;
+export default jmloportfolio;
     

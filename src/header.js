@@ -9,7 +9,7 @@ function header(){
         <nav className="nav-bar">
             <ul>
                 <li className="logo-name">
-                    <a><Link to="/mainpage"> jmlo<span className='white-name'>.</span>__</Link></a>
+                    <a><Link to="/jmloportfolio"> jmlo<span className='white-name'>.</span>__</Link></a>
                 </li>
                 <li className="nav navbar-nav navbar-right">
                     <a><Link to="/contact">contact me<span className='white-name'>.</span></Link></a>
