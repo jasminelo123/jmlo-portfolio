@@ -1,0 +1,779 @@
+.App {
+    text-align: center;
+    font-family:  'georgia';
+    color:#203239;
+  }
+
+h6{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.18em;
+    /* text-shadow:  rgba(0, 0, 1, 0.4) 1px 7px 6px; */
+}
+
+h1 {
+  font-family:'georgia',cursive;
+}
+
+
+/* hr{
+    position: relative;
+    border: none;
+    height: 2px;
+    background: #203239;
+    margin-bottom: 5px;
+} */
+
+.Welcome-Banner{
+    margin: auto;
+    font-size: 30px;
+    animation: moveup 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    min-height:100%;
+    height: 500px;
+}
+
+
+
+
+/* BUTTONS */
+.button-explore{
+    background-color: #FFF89A;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    width: 18%;
+    box-shadow:  rgba(0, 0, 1, 0.4) 1px 7px 6px;
+    height: 50px;
+    border-color: #203239;
+    border-radius: 25px;
+    font-size: 12px;
+    color: #203239;
+    font-family: 'helvetica', sans-serif;
+    letter-spacing: 4px;
+    cursor:pointer;
+
+}
+
+.narrow .button-explore-mini{
+    background-color: #423D40;
+    text-decoration: none;
+    width: 20%;
+    box-shadow:  rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 20px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: white;
+    font-family: 'georgia';
+    letter-spacing: 5px;
+    cursor:pointer;
+    position: fixed;
+    z-index: 1;
+}
+.button-explore:hover{
+
+    background-color: white;
+    color:#423D40;
+}
+
+
+
+
+/* NAV BAR DESIGNS */
+.nav-bar{
+  /* position: sticky; */
+    position: fixed;
+    /* background-color: #423D40; */
+    width: 90%;
+    z-index: 1;
+    top: 35px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+.nav-bar.active{
+  /* background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  border: 1px #203239 solid;
+  top: 0;
+  background-color: #F4FCD9;
+  width: 100%;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  height: 10%;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  /* background-color: #f7e1e6; */
+  transition: 1s;
+}
+
+.nav-bar.active .logo-name{
+  background-color: #FFF89A;
+  padding: 5px; 
+  margin-top: 13px; 
+  border: 1px #203239 solid;
+  /* background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* border: solid 2px white;
+  color: white; */
+}
+.nav-bar.active li a{
+  font-size: 18px;
+  font-weight:normal;
+  color: #203239;
+}
+.nav-bar.active ul{
+  margin-left: 50px;
+  margin-right:50px;
+}
+
+/* MENU ICONS */
+.menu-icon{
+  float: right;
+  top: 10px;
+  position: flex;
+  visibility: hidden;
+}
+/* .nav-menu.active{
+  visibility: hidden;
+} */
+
+
+
+/* LOGO DESIGNS */
+.logo-div{
+  margin-top: 130px;
+  z-index: -1;
+}
+
+
+.logo-name{
+    float: left;
+    width: 100px;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 10px;
+    
+}
+
+.logo-name a{
+  color: #203239;
+}
+/* .logo-name  a{
+  text-transform: capitalize;
+ font-size: 30px; 
+  font-style: italic;
+  font-family: Roboto, cursive;
+  color: rgb(32, 2, 12);
+} */
+
+/* .logo-name a:hover{
+    color: white;
+    width: 80px;
+    padding: 10px;
+}  */
+
+
+/* UL LI ON THE NAV BAR */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: right;
+    margin: 20px; 
+  }
+  
+  li a{
+    color: white;
+    text-decoration: none;   
+
+  }
+  
+  a{
+    text-decoration: none;  
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    letter-spacing: 0.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+  }
+
+  .nav-menu a:hover{
+    color:#203239; 
+    background-color: #FFF89A;
+    border-radius: 30px;
+    padding: 10px;
+  }
+
+.column-sticky{
+  bottom: 0px;
+  width: 100%;
+  z-index: 1;
+  position:sticky;
+  float: left;
+  /* background-color: #f7e1e6; */
+  border-radius: 10px;
+  padding: 10px;
+  /* top: -100px; */
+  /* margin-left: 50px; */
+  animation: moveup 1s linear 1;
+  animation-delay: 1s;
+  /* visibility: hidden; */
+  animation-fill-mode: forwards;
+}
+.social-med-logos{
+  bottom: 20px;
+  z-index: 1;
+  position:sticky;
+  float: right;
+  background-color: #f7e1e6;
+  border-radius: 10px;
+  padding: 10px;
+  /* top: -100px; */
+  margin-right: 80px;
+  animation: moveleft 1s linear 1;
+  animation-delay: 1s;
+  /* visibility: hidden; */
+  animation-fill-mode: forwards;
+}
+
+/* EMAIL */
+.column-sticky .email-add{
+  /* position: absolute; */
+  margin-top: 60px;
+  float: left;
+  transform: rotate(-90deg);
+  /* overflow-y: hidden; */
+}
+
+.column-sticky .email-add h3{
+  font-size: 14px; 
+  font-weight: normal;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-me-div{
+  height: 500px;
+  transition: 1s;
+  visibility: hidden;
+
+}
+
+.about-me-div-active{
+  visibility: visible;
+  transition: 1s;
+  animation: moveleft2 0.5s linear 1;
+  /* /* animation: zoom-in-zoom-out 1s linear 1 ; */
+  animation-fill-mode: forwards;
+  text-align: left;
+  margin-left: 200px;
+  font-size: 18px;
+  width: 67%;
+  border-radius: 20px;
+  background-color: #F4FCD9;
+  border: 1px #203239 solid;
+  padding: 40px;
+  opacity: 0.9;
+}
+.about-me-div-active h1{
+  color: #203239;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-me-div-active h6{
+  margin-top: -2px;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: justify;
+  background-color: #FFF89A;
+  border: 1px #203239 solid;
+  color: #203239;
+  text-transform: lowercase;
+}
+
+
+.footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  font-style: italic;
+  /* opacity: 0.5; */
+  color: #f7e1e6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.footer h6{
+  text-transform: lowercase;
+}
+
+
+
+
+  .fa{
+      margin-bottom: 5px;
+      /* line-height: -20px; */
+      /* margin-bottom: 25px; */
+      color: #203239;
+      /* background-color: white; */
+      padding: 5px;
+      /* border-radius: 10px; */
+      font-size: 18px;
+     
+  }
+
+/* COLUMN DESIGNS */
+  .parent{
+    display: flex;
+    margin: 90px;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 150px;
+    transition: 1s;
+    animation: moveleft2 0.5s linear 1;
+    animation-fill-mode: forwards;
+    text-align: left;
+    font-size: 18px;
+    border-radius: 20px;
+    background-color: #F4FCD9;
+    padding: 40px;
+    opacity: 0.9;
+    border: 1px #203239 solid;
+    
+  }
+  .narrow {
+    width: 800px;
+    height: 300px;
+    text-align: left;
+    margin-left: 30px;
+
+  }
+ 
+
+/* .name{
+    font-size: 50px;
+    margin-bottom: -10px;
+    margin-top: -20px;
+} */
+/* 
+.name-tags{
+    margin-top: 50%;
+} */
+
+
+.narrow h6{
+    font-size: 20px;
+    margin: 10px;
+    color: #203239;
+    text-transform: lowercase;
+    text-align: justify;
+}
+
+.narrow h1{
+  color: #203239;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.narrow-left h6{
+    font-size: 20px;
+    margin: 10px;
+}
+
+  .wide {
+    flex: 1;
+    color: white;
+    background-color: #FFF89A;
+    border: 1px #203239 solid;
+    border-radius: 20px;
+    height: 320px;
+    position: relative;
+    margin: 10px;
+  }
+ 
+
+/* LOGO MAIN PAGE DESIGNS */
+  .logo-main{
+    width: 30%;
+    margin-bottom: -100px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+    z-index: -1;
+  }
+  .logo-nav{
+    width: 10%;
+    position: relative;
+  }
+
+/* FOR RESPONSIVE SCREEN MEDIA */
+  @media screen and (max-width: 1000px) {
+    .dropdown-content a {
+      display: block;
+      text-align: center;
+
+    }
+    .dropdown-content{
+      float: right;
+      margin-left: 100px;
+
+    }
+    li {
+      float: none;
+      font-size: 20px;
+      text-align: right;
+      visibility: hidden;
+    }
+    .logo-name{
+      visibility: hidden;
+    }
+    .narrow {
+      width: 100%;
+      height: 350px;
+      text-align: left;
+      margin: auto;
+    }
+    .narrow h6{
+      margin: auto;
+      margin-left: -25px;
+    }
+    .name{
+      margin: auto;
+      margin-left: -25px;
+      font-size: 50px;
+    }
+    .narrow h1{
+      margin-left: -20px;
+      margin-bottom: -5px;
+      color: #203239;
+      font-style: italic;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .wide {
+      display: none;
+      visibility: hidden;
+    }
+
+    .parent{
+      width: 50%;
+      top:0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 500px;
+      
+    }
+
+    .this-is-div{
+      margin-top: 150px;
+      overflow: hidden;
+    }
+   .narrow.button-explore-mini{
+      width: 70%;
+      height: 50px;
+      position: absolute;
+  }
+    .down-banner{
+      margin-top: 500px;
+    }
+    .fa{
+      margin-left: 5px;
+      line-height: -20px;   
+      font-size: 16px;
+  }
+    /* .socialmedia{
+      margin-left: -10px;
+    } */
+    .social-med-logos{
+      text-align: right;
+      margin-bottom: -120px;
+      float: none;
+      margin-right: 10px;
+      background-color: transparent;
+  }
+
+  .column-sticky .email-add{
+     visibility: hidden;
+  }
+    
+    .button-explore{
+      width: 70%;
+      height: 5;
+      font-size: 9px;
+  }
+  h6{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .logo-main{
+    width: 80%;
+    margin-bottom: -50px;
+  }
+    .Welcome-Banner{
+      width: 90%;
+  } 
+  .menu-icon{
+    float: right;
+    top: 10px;
+    position: flex;
+    visibility:visible;
+    cursor: pointer;
+  }
+  .menu-icon i:hover{
+    color: #F4FCD9;
+  }
+  .menu-icon i{
+    font-size: 20px;
+    color: #203239;
+  }
+  .nav-menu.active{
+    background-color: antiquewhite;
+    border: 1px #203239 solid;
+    opacity: 0.8;
+    /* animation: moveleft 1s linear 1; */
+    visibility: hidden;
+    animation: zoom-in-zoom-out 1s linear 1 ;
+    animation-fill-mode: forwards;
+    top: 0;
+    border-radius: 20px;
+    height: 250px;
+    
+  }
+
+
+  .nav-menu.active li{
+    visibility:visible;
+    position: relative;
+
+  }
+  .nav-menu.active .logo-name{
+    visibility:visible;
+    text-align: center;
+    /* margin-top: 150px; */
+    left: 0;
+    right: 0;
+  }
+
+  .nav-menu.active a{
+    color: #203239;
+
+  }
+  .nav-bar.active .menu-icon{
+    margin-right: 30px;
+    margin-top: 15px;
+  }
+  .nav-bar.active{
+    background-color: transparent;
+    border: none;
+  }
+  
+.about-me-div-active{
+  width: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.about-me-div-active h6{
+  font-size: 18px;
+}
+
+
+}
+/* //end */
+
+
+
+  .email-name{
+      text-decoration: underline;
+      color: blue;
+      font-size: 18px;
+  }
+  .dropdown-content {
+    display: none;
+    background-color: transparent;
+    border: 1px #203239 solid;
+    border-radius: 20px;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #203239;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+  }  
+
+  /* .dropdown-content a:hover {
+      color: #203239;
+      text-decoration: underline;
+    } */
+
+    .columns{
+      margin: auto;
+    }
+
+    .column{
+      width:100%;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    
+    .column {
+      flex: 33.33%;
+    }
+
+    @media (min-width: 48em) {
+      .columns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    img{
+      width: 100%;
+    }
+ 
+  }
+
+  /* img{
+    width: 100%;
+    box-shadow:  rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  } */
+
+  .descrip{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .white-name{
+    color:#FFF89A;
+    font-weight: bold;
+    /* font-size: 20px; */
+  }
+
+  .fas{
+    font-size: 50px;
+    margin-top: -50px;
+    color:#423D40;  
+  }
+
+  .up-icon{
+    /* margin-top: 25px; */
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin: auto;
+  }
+  
+  .up-icon h6{
+    margin-left: 22px;
+    color: #203239;
+  }
+
+ 
+
+  /* ANIMATION */
+  @keyframes moveup {
+    0%{
+      transform: translateY(100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translateY(0px);
+      visibility: visible;
+    }
+  }
+
+  
+  @keyframes zoom-in-zoom-out {
+    0% { 
+      opacity: 0; 
+      transform: scale(0.5) translateX(200px) translateY(-120px);
+      visibility: visible;
+      /* clip-path: circle(0%);  */
+
+    
+    }
+
+    100% { 
+      opacity:  0.8; 
+      transform: scale(1) translateX(0px) translateX(0px) translateY(0px);
+      visibility: visible;
+      /* clip-path: circle(70%);  */
+      }
+  }
+
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 20px); }
+    100%   { transform: translate(0, -0px); }   
+}
+  @keyframes moveleft {
+    0%{
+      transform: translateX(100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translateX(0px);
+      visibility: visible;
+    }
+  }
+
+  @keyframes moveleft2 {
+    0%{
+      transform: translateX(100px);
+      visibility: visible;
+      width: 40%;
+    }
+    100%{
+      transform: translateX(0px);
+      visibility: visible;
+      width: 67%;
+    }
+  }
+
+  @keyframes movedown {
+    0%{
+      transform: translateY(-100px);
+      visibility: visible;
+    }
+    100%{
+      transform: translateY(0px);
+      visibility: visible;
+    }
+  }

@@ -76,9 +76,9 @@ function shares(){
         </div>
       
     </div>
-    <div className="social-med-logos"><br/>
+    
     <SocialMedia/>
-    </div>
+    
 </div>
         );
     };

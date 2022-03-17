@@ -7,23 +7,23 @@ import { BrowserRouter as Router,
 
 function coding(){
     return( 
-<div>
+<div className="this-is-div"> 
 <div className="parent ">
   <div className="wide"> <h1 className="name-tags">coding.</h1> </div>
   <div className="narrow">
-      <h1>what i do<span className='white-name'>.</span></h1>
-      <h1 className="name">html.css.js.<br/>reactjs.php.java.</h1>
+      <h1>what i do<span className='white-name'>.</span><br/>html.css.js.reactjs.php.java.</h1>
       <h6>i am interested with creating a website and brings it to life.
-          <br/>i am open and have the eagerness to learn more with development.
-          <br/>
-          <br/>
+          i am open and have the eagerness to learn more with development.
       </h6>
       <Link to="/editing">  <button className='button-explore-mini'> more.</button></Link>
-      <SocialMedia/>
+
       </div>
+      
+      
 </div>
+<div className="up-icon"><h6 className="fas fa-angle-up"></h6></div>
 <div className="down-banner">
-<a href="#coding" className='fas fa-angle-down'></a>
+
 <div className="Welcome-Banner" id="coding">    
  
  <h1>some websites i did with my course.</h1>
@@ -42,6 +42,7 @@ function coding(){
      </div>
  </div>
  </div>
+ <SocialMedia/>
  </div>
         );
     };

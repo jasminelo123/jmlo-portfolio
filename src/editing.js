@@ -7,25 +7,23 @@ import { BrowserRouter as Router,
 
 function editing(){
     return( 
-<div>
+<div className="this-is-div"> 
 <div className="parent">
 <div className="wide "><h1 className="name-tags">editing.</h1></div>
 <div className="narrow">
-    <h1>what i do.</h1>
-    <h1 className="name">poster/video editing<span className='white-name'>.</span></h1>
+    <h1>what i do. <br/>poster/video editing<span className='white-name'>.</span></h1>
     <h6>handling a small online shop using Shopee.
-        <br/>creating my own poster using Photoshop, Illustrator or Canva.
-        <br/>making vlogs and video contents at Youtube, Facebook, Tiktok and Instagram.
-        <br/>let me share some of it...
+        creating my own poster using Photoshop, Illustrator or Canva.
+        making vlogs and video contents at Youtube, Facebook, Tiktok and Instagram.
+        let me share some of it...
     </h6>
     <Link to="/shares">  <button className='button-explore-mini'> more.</button></Link>
-  <SocialMedia/>
+ 
 
   </div>
-
 </div>
 <div className="down-banner">
-<a href="#social" className='fas fa-angle-down'></a>
+
 
 <div className="Welcome-Banner" id="social">    
  
@@ -81,10 +79,9 @@ function editing(){
         <i><a href="https://www.youtube.com/watch?v=qUFDmWvZG30&t=28s"> from youtube</a></i>
         </div>
     </div>
-    <div className="social-med-logos"><br/>
-    <SocialMedia/>
-    </div>
+
 </div>
+<SocialMedia/>
 </div>
         );
     };

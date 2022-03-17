@@ -1,5 +1,5 @@
 
-import './design.css';
+import './css/design.css';
 import MainPage from './jmloportfolio';
 import Header from './header';
 import AboutMe from './aboutme';
@@ -17,7 +17,9 @@ function App() {
     <Router>
 
    <div className="App">
-   <div className="App-nav-header"><Header/></div>
+    <div className="App-nav-header">
+        <Header/>
+    </div>
    
    <Switch>
         <Route path="/" exact component={MainPage} />
