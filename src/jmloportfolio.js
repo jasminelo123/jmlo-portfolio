@@ -23,8 +23,8 @@ function Jmloportfolio(){
         <div className="Welcome-Banner">      
             <div className="logo-div">
                 <img className="logo-main" src={require('./img/logo.png')} />
-                <h6>i'm jasmine! aspiring <span className='white-name'>designer </span> &
-                <span className='white-name'> developer</span>  </h6>
+                <h6>i'm jasmine! i'm into <span className='white-name'>coding </span> &
+                <span className='white-name'> designing</span>  </h6>
                 <Link to="/aboutme">  <button className='button-explore'>work with me</button></Link>
                 {/* <div className="up-icon"><br></br><h6 className="fas fa-angle-up"></h6></div> */}
             </div>

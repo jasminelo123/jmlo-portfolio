@@ -284,6 +284,7 @@ ul {
   animation-fill-mode: forwards;
   text-align: left;
   margin-left: 200px;
+  margin-right: 150px;
   font-size: 18px;
   width: 67%;
   border-radius: 20px;
@@ -531,6 +532,8 @@ ul {
   }
     .Welcome-Banner{
       width: 90%;
+      height: 500px;
+      margin-bottom: 150px;
   } 
   .menu-icon{
     float: right;
@@ -684,7 +687,7 @@ ul {
     /* font-size: 20px; */
   }
 
-  .fas{
+  .up-icon .fa{
     font-size: 50px;
     margin-top: -50px;
     color:#423D40;  
