@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jmloportfolio/static/css/main.7c109140.css",
-    "main.js": "/jmloportfolio/static/js/main.47e926e6.js",
+    "main.css": "/jmloportfolio/static/css/main.f9865c7c.css",
+    "main.js": "/jmloportfolio/static/js/main.0b484de7.js",
     "static/js/787.9a45d12d.chunk.js": "/jmloportfolio/static/js/787.9a45d12d.chunk.js",
     "static/media/bg.png": "/jmloportfolio/static/media/bg.5dc6b7ff4da055aa0643.png",
     "static/media/pic2.PNG": "/jmloportfolio/static/media/pic2.dde66d3290cd3f1ef2e1.PNG",
@@ -12,14 +12,16 @@
     "static/media/pc9.PNG": "/jmloportfolio/static/media/pc9.934d46615207d17b0fa5.PNG",
     "static/media/pic8.PNG": "/jmloportfolio/static/media/pic8.f3a262eadbbda39439ce.PNG",
     "static/media/pic4.PNG": "/jmloportfolio/static/media/pic4.6d8224f0fdeca8bd3e0e.PNG",
-    "static/media/logo.png": "/jmloportfolio/static/media/logo.72d231e9aa2094b49818.png",
+    "static/media/ologo2.png": "/jmloportfolio/static/media/ologo2.6b4cd423815cb20db8f5.png",
+    "static/media/ologo.png": "/jmloportfolio/static/media/ologo.61a691ebf08f6cf1b22c.png",
+    "static/media/figmasample.PNG": "/jmloportfolio/static/media/figmasample.48c60c51ade66beecb85.PNG",
     "index.html": "/jmloportfolio/index.html",
-    "main.7c109140.css.map": "/jmloportfolio/static/css/main.7c109140.css.map",
-    "main.47e926e6.js.map": "/jmloportfolio/static/js/main.47e926e6.js.map",
+    "main.f9865c7c.css.map": "/jmloportfolio/static/css/main.f9865c7c.css.map",
+    "main.0b484de7.js.map": "/jmloportfolio/static/js/main.0b484de7.js.map",
     "787.9a45d12d.chunk.js.map": "/jmloportfolio/static/js/787.9a45d12d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c109140.css",
-    "static/js/main.47e926e6.js"
+    "static/css/main.f9865c7c.css",
+    "static/js/main.0b484de7.js"
   ]
 }
