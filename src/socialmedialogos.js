@@ -16,7 +16,7 @@ function socialmedialogos(){
     </div>
     <div className="footer">
     <div className="up-icon"><h6 className="fa fa-angle-up"></h6></div>
-            <h6>-under developement using reactjs and css-</h6>
+            <h6>~under development using reactjs and css~</h6>
         </div>
 </div>  
         );

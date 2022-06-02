@@ -27,23 +27,10 @@ function Header(){
             </div>
             <ul className={click? 'nav-menu active' : 'nav-menu'}>
                 <li className="logo-name">
-                    <a><Link to="/jmloportfolio">jmlo<span className='white-name'>;</span></Link></a>
+                    <a><Link to="/jmloportfolio"><img src={require('./img/ologo.png')} /></Link></a>
                 </li>
                 <li >
                     <a><Link to="/contact">contact me<span className='white-name'>.</span></Link></a>
-                </li>
-                <div class="dropdown">
-                    <li >
-                        <a  className="dropbtn"><Link to="/whatido">what i do<span className='white-name'>.</span></Link></a>
-                        <div className="dropdown-content">
-                        <a href="#"><Link to="/coding">coding.</Link></a>
-                        <a href="#"><Link to="/editing">editing.</Link></a>
-                        {/* <a href="#"><Link to="/shares">sample things i did.</Link></a> */}
-                        </div>
-                    </li>
-                </div>
-                <li >
-                    <a><Link to="/aboutme">about me<span className='white-name'>.</span></Link></a>
                 </li>
                 
             </ul>

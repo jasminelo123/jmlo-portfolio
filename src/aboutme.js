@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SocialMedia from './socialmedialogos';
 import { BrowserRouter as Router,
     Switch,
@@ -6,28 +6,32 @@ import { BrowserRouter as Router,
     Link} from 'react-router-dom';
 import Header from './header';
 
-function aboutme(){
+function Aboutme(){
+    const [aboutmediv, setAbout] = useState(false);
+    const changeAbout = () =>{
+        //console.log(window.scrollY);
+        if(window.scrollY == 300){
+            setAbout(true);
+        }else{
+            setAbout(false);
+        }
+    };
+
+    //for checking scroll working 
+    window.addEventListener('scroll', changeAbout);
+
     return( 
-<div className="this-is-div">       
-{/* <div className="App-nav-header"><Header/></div> */}
-<div className="parent ">
-  <div className="wide "></div>
-  <div className="narrow">
-      <h1>hi, it's me! jasmine.</h1>
-      <h6>4th year college student taking Bachelor of Science in Information techology at Technological Institute of the Philippines.
-          Aspiring to become a programmer and a web developer.
-          I am seeking experience to help me grow with my career.
-          I am also handling a small online shop in Shopee.
-      </h6>
-      <Link to="/whatido">  <button className='button-explore-mini'> more.</button></Link>
-    </div>
-    
-</div>
-<SocialMedia/>
-</div> 
+        <div id="aboutme" className={aboutmediv ? 'about-me-div': 'about-me-div-active'}>
+            <div className="about-me-content" >
+                <h1>About me (she/her)</h1>
+                {/* <h2>Bachelor of science in Information Technology Major 3d animation and mobile development</h2> */}
+                <h6>Hi, I’m Jas nice to see you here! I’m an aspirant web developer or a front-end designer! I’m also interested with a bit of backend. Currently I’ve been practicing and developing personal projects for my own growth. It excites me whenever I got to make things into reality. 
+                </h6>
+            </div>
+        </div>
 
         );
     };
     
-export default aboutme;
+export default Aboutme;
     
