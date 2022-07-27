@@ -26,11 +26,20 @@ function Header(){
                 <i className={click ? 'fa fa-times' : 'fa fa-bars'}></i>
             </div>
             <ul className={click? 'nav-menu active' : 'nav-menu'}>
+                <li className='home'>
+                    <a ><Link to="/contact">Home</Link></a>
+                </li>
+                <li>
+                    <a><Link to="/contact">About me</Link></a>
+                </li>
                 <li className="logo-name">
                     <a><Link to="/jmloportfolio"><img src={require('./img/ologo.png')} /></Link></a>
                 </li>
+                <li>
+                    <a><Link to="/contact">Works</Link></a>
+                </li>
                 <li >
-                    <a><Link to="/contact">contact me<span className='white-name'>.</span></Link></a>
+                    <a><Link to="/contact">Contact me</Link></a>
                 </li>
                 
             </ul>

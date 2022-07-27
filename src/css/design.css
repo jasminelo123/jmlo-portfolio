@@ -27,32 +27,33 @@ h1 {
     min-height:100%;
     height: 600px;
     padding: 20px;
-    /* background-color: #A4A3A1; */
-    background: url("../img/bg.png") no-repeat center center fixed; 
+    background-color: #E0D3C1;
+    /* background: url("../img/bg.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     /* z-index: 1; */
 }
 
 /* BUTTONS */
 .button-explore{
-    background-color: #FFF89A;
+    background-color: #532D4A;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-    width: 18%;
-    box-shadow:  rgba(0, 0, 1, 0.4) 1px 7px 6px;
+    width: 239px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
     height: 50px;
-    border-color: #203239;
-    border-radius: 25px;
-    font-size: 12px;
-    color: #203239;
-    font-family: 'helvetica', sans-serif;
-    letter-spacing: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.11em;
+    font-weight: 500;
     cursor:pointer;
-
+    line-height: 24px;
+    font-style: normal;
 }
 
 .narrow .button-explore-mini{
@@ -80,15 +81,10 @@ h1 {
 
 /* NAV BAR DESIGNS */
 .nav-bar{
-  /* position: sticky; */
     position: fixed;
-    /* background-color: #423D40; */
-    width: 90%;
+    width: 103%;
     z-index: 1;
-    top: 35px;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 25px;
     animation: movedown 1s linear 1;
     animation-delay: 1s;
     visibility: hidden;
@@ -96,44 +92,34 @@ h1 {
 }
 
 .nav-bar.active{
-  /* background-image: url("../img/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* border: 1px #203239 solid; */
   top: 0;
-  background-color: #f7e1e6;
-  /* background: url("../img/bg.png") no-repeat center center fixed;  */
+  background-color: #FFFFFF;
   width: 100%;
   animation-delay: 1s;
   animation-fill-mode: forwards;
   height: 10%;
-  /* border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px; */
-  /* background-color: #f7e1e6; */
   transition: 1s;
 }
 
-.nav-bar.active .logo-name{
-  /* background-color: #FFF89A; */
+.home a{
+  text-decoration:underline;
+  text-decoration-color: #203239;
+  text-decoration-thickness: 2px;
+  text-decoration-style:wavy;
+}
+/* .nav-bar.active .logo-name{
   padding: 5px; 
   margin: auto;
-  /* border: 1px #203239 solid; */
-  /* background-image: url("../img/bg.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* border: solid 2px white;
-  color: white; */
 }
-
+.nav-bar .logo-name{
+  padding: 5px; 
+  margin: auto;
+} */
 /*Logo in header*/
 .logo-name{
-  float: left;
   width: 100px;
-  /* background-color: #F4FCD9; */
-  /* border: 1px solid; */
-  /* border-radius: 25px; */
-  /* padding: 10px; */
-  visibility: hidden;
+  padding: 5px; 
+  margin: auto;
 }
 
 .logo-name img{
@@ -142,7 +128,7 @@ width: 50%;
 
 .nav-bar.active .logo-name{
    padding: 10px;
-visibility: visible;
+  visibility: visible;
 }
 
 .nav-bar.active li a{
@@ -184,36 +170,73 @@ visibility: visible;
 .logo-div{
   margin-top: 130px;
   z-index: -1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .logo-div img{
   width: 320px;
   padding: 15px;
 }
 
+.intro-title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.11em;
+  color: #532D4A;
+}
 
+.hello-banner{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  color: #532D4A;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.hello-desc{
+  color: #532D4A;
+  position: relative;
+  font-size: 36px;
+  line-height: 5px;
+  font-weight: 500;
+}
+
+.title-description{
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 110px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.11em;
+  color: #532D4A;
+}
 
 /* UL LI ON THE NAV BAR */
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:hidden;
   }
   
   li {
-    float: right;
-    margin: 20px; 
+    margin: 25px; 
+    display:inline-block;
+    float: none;
   }
   
   li a{
     color: white;
     text-decoration: none;   
-
+    font-weight: 400;
   }
   
   a{
     text-decoration: none;  
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* font-weight: bold; */
     letter-spacing: 0.1em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -223,9 +246,10 @@ ul {
 
   .nav-menu a:hover{
     color:#203239; 
-    /* background-color: #FFF89A; */
-    border-radius: 30px;
-    padding: 10px;
+    text-decoration:underline;
+    text-decoration-color: #203239;
+    text-decoration-thickness: 2px;
+    text-decoration-style:wavy;
   }
 
 .column-sticky{
@@ -249,7 +273,7 @@ ul {
   z-index: 1;
   position:sticky;
   float: right;
-  background-color: #f7e1e6;
+  /* background-color: #f7e1e6; */
   border-radius: 10px;
   padding: 10px;
   /* top: -100px; */
@@ -263,16 +287,15 @@ ul {
 /* EMAIL */
 .column-sticky .email-add{
   /* position: absolute; */
-  margin-top: 60px;
-  float: left;
-  transform: rotate(-90deg);
+  /* margin-top: 0px; */
+  
+  bottom:0;
+  /* transform: rotate(-90deg); */
   /* overflow-y: hidden; */
 }
 
-.column-sticky .email-add h3{
-  font-size: 14px; 
-  font-weight: normal;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.column-sticky .line{
+  color: #532D4A;
 }
 
 .about-me-div{
@@ -364,7 +387,13 @@ h2{
 
 .footer h6{
   text-transform: lowercase;
-  color:#203239;
+  color:#532D4A;
+  float: left;
+  transform: rotate(-90deg);
+  margin-left: -120px;
+  margin-top: -280px;
+  position: fixed;
+ 
 }
 
 
@@ -374,12 +403,17 @@ h2{
       margin-bottom: 5px;
       /* line-height: -20px; */
       /* margin-bottom: 25px; */
-      color: #203239;
+      color: #532D4A;
       /* background-color: white; */
       padding: 5px;
       /* border-radius: 10px; */
       font-size: 18px;
      
+  }
+
+  .fa.fa-chevron-right{
+    color: #FFFFFF;
+    font-size: 14px;
   }
 
 /* COLUMN DESIGNS */
@@ -473,6 +507,10 @@ h2{
 
 /* FOR RESPONSIVE SCREEN MEDIA */
   @media screen and (max-width: 1000px) {
+      /*Footer h6*/
+      .footer h6{
+        visibility: hidden;
+      }
       /*WORKS*/
       .column img{
         width: 300px;
@@ -635,6 +673,7 @@ h1{
     visibility:visible;
     position: relative;
 
+
   }
   .nav-menu.active .logo-name{
     visibility:hidden;
@@ -753,8 +792,8 @@ h1{
   }
 
   .white-name{
-    color:#FFF89A;
-    font-weight: bold;
+    color:#FFFFFF;
+    font-weight: 700;
     /* font-size: 20px; */
   }
 

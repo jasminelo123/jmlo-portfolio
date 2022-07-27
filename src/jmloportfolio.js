@@ -12,12 +12,11 @@ function Jmloportfolio(){
         
         <div className="Welcome-Banner">      
             <div className="logo-div">
-                <img className="logo-main" src={require('./img/ologo2.png')} />
-                {/* <h6>i'm jasmine! i'm into <span className='white-name'>coding </span> &
-                <span className='white-name'> designing</span>  </h6> */}
-                <h6>web designer & developer</h6>
-                <Link to="/contact">  <button className='button-explore'>work with me</button></Link>
-                {/* <div className="up-icon"><br></br><h6 className="fas fa-angle-up"></h6></div> */}
+                <p className='intro-title'>- INTRODUCTION</p>
+                <p className='hello-banner'>Hello, I'm Jasmine</p>
+                <p className='hello-desc'>Web <span className='white-name'>Designer </span>and <span className='white-name'>Developer</span></p>
+                <p className='title-description'>It excites me whenever I got to make things into reality. <br/>Excited to work with new things!</p>
+                <Link to="/contact">  <button className='button-explore'>Know me more <i className="fa fa-chevron-right"></i></button></Link>
             </div>
          
         </div>
