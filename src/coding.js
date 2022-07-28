@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SocialMedia from './socialmedialogos';
+import Toolsused from './toolsused';
 import { BrowserRouter as Router,
     Switch,
     Route,
@@ -20,20 +21,30 @@ function Coding(){
     window.addEventListener('scroll', changeAbout);
 
     return( 
-     <div id="aboutme" className={aboutmediv ? 'about-me-div': 'about-me-div-active'}>
-         <h1>Sample Works</h1>
-            <div className="coding-column" >
-                <div className="column">
-                    <img src={require('./img/pic4.PNG')}alt="pic1"></img>
-                    <h3><a href="https://jasminelo123.github.io/Jas-Sample/">REACTJS REGISTRATION FORM DESIGN</a></h3>
-                    <h3>One of my sample outputs during my college days Used React Js and CSS for designing.</h3>
+    <div>
+     <div id="aboutme" className={aboutmediv ? 'about-me-div': 'about-me-div-active'}>   
+        <div className="coding-content" >
+            <div className="child1">
+                 <Toolsused/>
+            </div>       
+            <div className="child2">
+                <div className="coding-column" >
+                    <p className='intro-title'>- MY WORKS</p>
+                    <div className="column">
+                        <a href="https://jasminelo123.github.io/Jas-Sample/"><img src={require('./img/pic4.PNG')}alt="pic1"></img></a>
+                        <p className='title-description'>REACTJS REGISTRATION FORM DESIGN<br/>
+                        One of my sample outputs during my college days Used React Js and CSS for designing.</p>
+                    </div>
+                    <div className="column">
+                        <a href="https://www.figma.com/proto/6hJEIsoIPzVIfavgCCJfS2/Jmlo-SIrirmiri?node-id=0%3A1"><img src={require('./img/figmasample.PNG')}alt="pic1"></img></a>
+                        <p className='title-description'>RECENT PERSONAL PROJECT<br/>
+                        E-commerce landing page for Jmlo Sirimiri Mnl. This is my small online shop. Used Figma for prototyping, underdevelopment used React JS and CSS.</p>
+                    </div>
                 </div>
-                <div className="column">
-                    <img src={require('./img/figmasample.PNG')}alt="pic1"></img>
-                    <h3><a href="https://www.figma.com/proto/6hJEIsoIPzVIfavgCCJfS2/Jmlo-SIrirmiri?node-id=0%3A1">RECENT PERSONAL PROJECT</a></h3>
-                    <h3>E-commerce landing page for Jmlo Sirimiri Mnl. This is my small online shop. Used Figma for prototyping, underdevelopment used React JS and CSS.</h3>
-                </div>
-            </div>
+            </div>   
+        </div>  
+        </div>
+        <SocialMedia/>
         </div>
         );
     };
