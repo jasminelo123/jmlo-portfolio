@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/jmloportfolio/static/css/main.b6e55557.css",
-    "main.js": "/jmloportfolio/static/js/main.30edea5d.js",
+    "main.css": "/jmloportfolio/static/css/main.5a79b114.css",
+    "main.js": "/jmloportfolio/static/js/main.331fc7f7.js",
     "static/js/787.9a45d12d.chunk.js": "/jmloportfolio/static/js/787.9a45d12d.chunk.js",
+    "static/media/myimage.JPG": "/jmloportfolio/static/media/myimage.cc255761e8a041f085b6.JPG",
     "static/media/pic2.PNG": "/jmloportfolio/static/media/pic2.dde66d3290cd3f1ef2e1.PNG",
     "static/media/pic1.PNG": "/jmloportfolio/static/media/pic1.f284a719ed5e041795f3.PNG",
     "static/media/pic7.PNG": "/jmloportfolio/static/media/pic7.85f8ceb29619d9712d72.PNG",
@@ -14,12 +15,12 @@
     "static/media/ologo.png": "/jmloportfolio/static/media/ologo.61a691ebf08f6cf1b22c.png",
     "static/media/figmasample.PNG": "/jmloportfolio/static/media/figmasample.48c60c51ade66beecb85.PNG",
     "index.html": "/jmloportfolio/index.html",
-    "main.b6e55557.css.map": "/jmloportfolio/static/css/main.b6e55557.css.map",
-    "main.30edea5d.js.map": "/jmloportfolio/static/js/main.30edea5d.js.map",
+    "main.5a79b114.css.map": "/jmloportfolio/static/css/main.5a79b114.css.map",
+    "main.331fc7f7.js.map": "/jmloportfolio/static/js/main.331fc7f7.js.map",
     "787.9a45d12d.chunk.js.map": "/jmloportfolio/static/js/787.9a45d12d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6e55557.css",
-    "static/js/main.30edea5d.js"
+    "static/css/main.5a79b114.css",
+    "static/js/main.331fc7f7.js"
   ]
 }
